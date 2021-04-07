@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  h1, p, span {
+    color: rgb(255, 255, 255);
+    
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+.navbar {
+  background: #302f2f;
+  padding: 1em;
+  text-decoration: none;
+}  
+
+.navbar .container {
+  display:grid;
+  grid-template-columns:30px 150px 150px auto;
+    
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+
+  ul {
+    display: flex;
+  }
+  
+  ul.primary-nav {
+    margin: 0;
+  }
+}
+
+
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #B9B5B5;
+}
+
+.bolded {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+
+
+ul.paanavi {
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+  
+}
+
+
+ul.alinavi {
+  color: rgb(252, 252, 252);
+  margin-left: 0;
+}
+
+.logout {
+  background: #232525;
+  border:3px solid #45b4f5;
+  color:black;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.rockets {
+  
+}

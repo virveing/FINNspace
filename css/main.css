@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+body {
+  background: black;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1, p, span {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background: #302f2f;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 150px 150px auto;
+      grid-template-columns: 30px 150px 150px auto;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav ul.primary-nav {
+  margin: 0;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #B9B5B5;
+}
+
+.bolded {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+ul.paanavi {
+  color: white;
+  margin-left: 0;
+}
+
+ul.alinavi {
+  color: #fcfcfc;
+  margin-left: 0;
+}
+
+.logout {
+  background: #232525;
+  border: 3px solid #45b4f5;
+  color: black;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */
